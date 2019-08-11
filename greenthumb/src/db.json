@@ -1,33 +1,32 @@
-{ 
-    "plants": [
-      {
-        "id": 1,
-        "name": "philodendron",
-        "img_url": "https://images.unsplash.com/photo-1453904300235-0f2f60b15b5d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=933&q=80",
-        "last_watered": "Sat Aug 9 2019 21:40:16 GMT-0700",
-        "duration": 1
-      },
-      {
-        "id": 2,
-        "name": "philodendron",
-        "img_url": "https://images.unsplash.com/photo-1453904300235-0f2f60b15b5d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=933&q=80",
-        "last_watered": "Sat Aug 10 2019 21:40:16 GMT-0700",
-        "duration": 3
-      },
-      {
-        "id": 3,
-        "name": "philodendron",
-        "img_url": "https://images.unsplash.com/photo-1453904300235-0f2f60b15b5d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=933&q=80",
-        "last_watered": "Sat Aug 8 2019 21:40:16 GMT-0700",
-        "duration": 2
-      },
-      {
-        "id": 4,
-        "name": "philodendron",
-        "img_url": "https://sushistickers.com/img/sushi-slice_99.png",
-        "last_watered": "Sat Aug 5 2019 21:40:16 GMT-0700",
-        "duration": 5
-      }
-    ]
-  }
-  
+{
+  "plants": [
+    {
+      "id": 1,
+      "name": "philodendron",
+      "img_url": "https://images.unsplash.com/photo-1453904300235-0f2f60b15b5d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=933&q=80",
+      "last_watered": "Sat Aug 9 2019 21:40:16 GMT-0700",
+      "duration": 1
+    },
+    {
+      "id": 2,
+      "name": "philodendron",
+      "img_url": "https://images.unsplash.com/photo-1453904300235-0f2f60b15b5d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=933&q=80",
+      "last_watered": "Sat Aug 10 2019 21:40:16 GMT-0700",
+      "duration": 3
+    },
+    {
+      "id": 3,
+      "name": "philodendron",
+      "img_url": "https://images.unsplash.com/photo-1453904300235-0f2f60b15b5d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=933&q=80",
+      "last_watered": "Sat Aug 8 2019 21:40:16 GMT-0700",
+      "duration": 2
+    },
+    {
+      "id": 4,
+      "name": "philodendron",
+      "img_url": "https://sushistickers.com/img/sushi-slice_99.png",
+      "last_watered": "Sat Aug 5 2019 21:40:16 GMT-0700",
+      "duration": 5
+    }
+  ]
+}

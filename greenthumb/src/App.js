@@ -1,6 +1,7 @@
 import React,{Component} from 'react';
 import './App.css';
 import PlantList from './components/PlantList'
+import PlantForm from './components/PlantForm'
 //TODO database, fake data in db json
 const API = "http://localhost:3000/plants"
 export default class App extends Component {
@@ -20,10 +21,23 @@ export default class App extends Component {
       return this.setState({plants:data})
     })
   }
+
+  createNewPlant = (data) => {
+    console.log('hi',data)
+    // TODO: secure post
+    return fetch(API, {
+      method: 'POST', 
+      headers: {
+          'Content-Type': 'application/json',
+      },
+      body: JSON.stringify(data)
+  })
+  }
   
   render(){
     return (
       <div>
+        <PlantForm  createNewPlant={this.createNewPlant}/>
         <PlantList plants={this.state.plants}/>
       </div>
      );
