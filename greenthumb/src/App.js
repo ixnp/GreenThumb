@@ -32,13 +32,30 @@ export default class App extends Component {
       },
       body: JSON.stringify(data)
   })
+  .then(res =>  res.json())
+  .then(data => {
+    console.log(data)
+    return  this.fetchPlants()
+  })
+  }
+
+  updatePlant = (data) =>{
+    console.log('hi',data.id)
+    // TODO: secure patch
+    return fetch(API+'/'+data.id, {
+      method: 'PATCH', 
+      headers: {
+          'Content-Type': 'application/json',
+      },
+      body: JSON.stringify(data)
+  })
   }
   
   render(){
     return (
       <div>
         <PlantForm  createNewPlant={this.createNewPlant}/>
-        <PlantList plants={this.state.plants}/>
+        <PlantList plants={this.state.plants} updatePlant={this.updatePlant}/>
       </div>
      );
   }
